@@ -19,13 +19,13 @@ struct ContentView: View {
                 action: {},
                 icon: Image(systemName: "plus")
             )
-            
+            Spacer()
             // textfield
             PlainTextField(
                 placeholder: "Simple TextField",
                 value: textFieldValue
             )
-            
+            Spacer()
             // avatar list
             HorizontalAvatarList(avatars: avatars)
         }
