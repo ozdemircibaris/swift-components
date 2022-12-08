@@ -10,10 +10,11 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            PlainButton(
+                title: "Simple Button",
+                action: {},
+                icon: Image(systemName: "plus")
+            )
         }
         .padding()
     }
