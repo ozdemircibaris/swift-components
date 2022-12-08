@@ -9,6 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     @State var textFieldValue: String = ""
+    var avatars: [String] = ["Baris", "Arif", "Ege", "Velihan"]
 
     var body: some View {
         VStack {
@@ -24,6 +25,9 @@ struct ContentView: View {
                 placeholder: "Simple TextField",
                 value: textFieldValue
             )
+            
+            // avatar list
+            HorizontalAvatarList(avatars: avatars)
         }
         .padding()
     }
