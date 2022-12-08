@@ -8,20 +8,23 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var textFieldValue: String = ""
+
     var body: some View {
         VStack {
+            // button
             PlainButton(
                 title: "Simple Button",
                 action: {},
                 icon: Image(systemName: "plus")
             )
+            
+            // textfield
+            PlainTextField(
+                placeholder: "Simple TextField",
+                value: textFieldValue
+            )
         }
         .padding()
-    }
-}
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
     }
 }

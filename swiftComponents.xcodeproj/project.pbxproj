@@ -12,6 +12,7 @@
 		0683602429421035004CE46D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0683602329421035004CE46D /* Assets.xcassets */; };
 		0683602729421035004CE46D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0683602629421035004CE46D /* Preview Assets.xcassets */; };
 		06836032294212F9004CE46D /* PlainButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06836031294212F9004CE46D /* PlainButton.swift */; };
+		0683603429421735004CE46D /* PlainTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0683603329421735004CE46D /* PlainTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		0683602629421035004CE46D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0683602829421035004CE46D /* swiftComponents.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = swiftComponents.entitlements; sourceTree = "<group>"; };
 		06836031294212F9004CE46D /* PlainButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlainButton.swift; sourceTree = "<group>"; };
+		0683603329421735004CE46D /* PlainTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlainTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				06836031294212F9004CE46D /* PlainButton.swift */,
+				0683603329421735004CE46D /* PlainTextField.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -150,6 +153,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0683603429421735004CE46D /* PlainTextField.swift in Sources */,
 				06836032294212F9004CE46D /* PlainButton.swift in Sources */,
 				0683602229421032004CE46D /* ContentView.swift in Sources */,
 				0683602029421032004CE46D /* swiftComponentsApp.swift in Sources */,
