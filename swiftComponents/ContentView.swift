@@ -28,6 +28,8 @@ struct ContentView: View {
             Spacer()
             // avatar list
             HorizontalAvatarList(avatars: avatars)
+            Spacer()
+            Avatar(title: "Barış Özdemirci", imageUrl: "https://pbs.twimg.com/profile_images/1224598450551033856/xc2w9vHR_400x400.jpg")
         }
         .padding()
     }
