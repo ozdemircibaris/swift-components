@@ -20,3 +20,12 @@
 `path:` swiftComponents > Components > HorizontalAvatarList.swift
 
 ![image](https://user-images.githubusercontent.com/42464623/206484245-0b388221-fef7-4263-ae20-c2cebf5af499.png)
+
+- Avatar
+
+`path:` swiftComponents > Components > Avatar.swift
+
+![image](https://user-images.githubusercontent.com/42464623/206696768-6c07ca12-513b-4014-bc4b-b304f91fcaef.png)
+
+![image](https://user-images.githubusercontent.com/42464623/206697183-3f067e38-ef23-4110-ad71-720d5b13c6f5.png)
+
