@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		065EF684294722D200F33479 /* SelectLocalPicture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065EF683294722D200F33479 /* SelectLocalPicture.swift */; };
 		0683602029421032004CE46D /* swiftComponentsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0683601F29421032004CE46D /* swiftComponentsApp.swift */; };
 		0683602229421032004CE46D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0683602129421032004CE46D /* ContentView.swift */; };
 		0683602429421035004CE46D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0683602329421035004CE46D /* Assets.xcassets */; };
@@ -15,9 +16,11 @@
 		0683603429421735004CE46D /* PlainTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0683603329421735004CE46D /* PlainTextField.swift */; };
 		06836036294222C0004CE46D /* HorizontalAvatarList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06836035294222C0004CE46D /* HorizontalAvatarList.swift */; };
 		0683603829434DC7004CE46D /* Avatar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0683603729434DC7004CE46D /* Avatar.swift */; };
+		06CD0B342954853E00F902B5 /* DropdownMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06CD0B332954853E00F902B5 /* DropdownMenu.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		065EF683294722D200F33479 /* SelectLocalPicture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectLocalPicture.swift; sourceTree = "<group>"; };
 		0683601C29421032004CE46D /* swiftComponents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftComponents.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0683601F29421032004CE46D /* swiftComponentsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftComponentsApp.swift; sourceTree = "<group>"; };
 		0683602129421032004CE46D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -28,6 +31,7 @@
 		0683603329421735004CE46D /* PlainTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlainTextField.swift; sourceTree = "<group>"; };
 		06836035294222C0004CE46D /* HorizontalAvatarList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalAvatarList.swift; sourceTree = "<group>"; };
 		0683603729434DC7004CE46D /* Avatar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Avatar.swift; sourceTree = "<group>"; };
+		06CD0B332954853E00F902B5 /* DropdownMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropdownMenu.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +89,8 @@
 				0683603329421735004CE46D /* PlainTextField.swift */,
 				06836035294222C0004CE46D /* HorizontalAvatarList.swift */,
 				0683603729434DC7004CE46D /* Avatar.swift */,
+				065EF683294722D200F33479 /* SelectLocalPicture.swift */,
+				06CD0B332954853E00F902B5 /* DropdownMenu.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -162,9 +168,11 @@
 				0683603829434DC7004CE46D /* Avatar.swift in Sources */,
 				0683603429421735004CE46D /* PlainTextField.swift in Sources */,
 				06836032294212F9004CE46D /* PlainButton.swift in Sources */,
+				065EF684294722D200F33479 /* SelectLocalPicture.swift in Sources */,
 				06836036294222C0004CE46D /* HorizontalAvatarList.swift in Sources */,
 				0683602229421032004CE46D /* ContentView.swift in Sources */,
 				0683602029421032004CE46D /* swiftComponentsApp.swift in Sources */,
+				06CD0B342954853E00F902B5 /* DropdownMenu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
